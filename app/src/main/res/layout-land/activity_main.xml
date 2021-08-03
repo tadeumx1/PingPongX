@@ -88,8 +88,8 @@
             android:id="@+id/btPlayerOneScore"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="72dp"
-            android:text="ponto"
+            android:layout_marginTop="8dp"
+            android:text="Ponto"
             app:layout_constraintEnd_toEndOf="@+id/tvPlayerOneScore"
             app:layout_constraintStart_toStartOf="@+id/tvPlayerOneScore"
             app:layout_constraintTop_toBottomOf="@+id/tvPlayerOneName" />
@@ -98,7 +98,7 @@
             android:id="@+id/btPlayerTwoScore"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="ponto"
+            android:text="Ponto"
             app:layout_constraintEnd_toEndOf="@+id/tvPlayerTwoScore"
             app:layout_constraintStart_toStartOf="@+id/tvPlayerTwoScore"
             app:layout_constraintTop_toTopOf="@+id/btPlayerOneScore" />
@@ -107,9 +107,8 @@
             android:id="@+id/btFinishMatch"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="32dp"
+            android:layout_marginTop="16dp"
             android:text="Terminar Partida"
-            app:layout_constraintEnd_toEndOf="@+id/btPlayerTwoScore"
             app:layout_constraintStart_toStartOf="@+id/btPlayerOneScore"
             app:layout_constraintTop_toBottomOf="@+id/btPlayerOneScore" />
 
@@ -117,10 +116,8 @@
             android:id="@+id/btRevenge"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="32dp"
             android:text="Revanche"
-            app:layout_constraintEnd_toEndOf="@+id/btFinishMatch"
-            app:layout_constraintStart_toStartOf="@+id/btFinishMatch"
-            app:layout_constraintTop_toBottomOf="@+id/btFinishMatch" />
+            app:layout_constraintEnd_toEndOf="@+id/btPlayerTwoScore"
+            app:layout_constraintTop_toTopOf="@+id/btFinishMatch" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
